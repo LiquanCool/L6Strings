@@ -1,7 +1,11 @@
 public class Runner {
     public static void main(String[] args) {
-        BabyParrot baby = new BabyParrot("Toucan", 3);
-        baby.setName("Lil' Beans");
-        System.out.print(baby);
+        StudentData student1 = new StudentData("Bob", "Yes", 2025);
+        student1.addTestScore(100);
+        student1.addTestScore(98);
+        student1.addTestScore(89);
+        student1.addTestScore(99);
+        System.out.println(student1);
+
     }
 }

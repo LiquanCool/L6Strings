@@ -40,6 +40,7 @@ public class StudentData {
         System.out.println("Number of Tests Averaged: " + testScoreCount);
     }
     public String toString(){
-        String str = "Student Name: " + firstName + " " + lastName+ "\n" +"Graduation Year: " + gradYear + "\n" + "Average Test Score: " + averageTestScore() +
+        String str = "Student Name: " + firstName + " " + lastName+ "\n" +"Graduation Year: " + gradYear + "\n" + "Average Test Score: " + averageTestScore() + "\n" + "Number of Tests Averaged: " + testScoreCount;
+        return str;
     }
 }
